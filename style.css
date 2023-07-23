@@ -134,7 +134,7 @@ body {
   color: SteelBlue;
   font-family: 'Times New Roman', serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 100;
   font-size: 100px;
   line-height: 105%;
   margin: 0;
@@ -166,7 +166,7 @@ input {
 }
 
 /* Subheading */
-h2 {
+h3 {
   color: SteelBlue;
 }
 
