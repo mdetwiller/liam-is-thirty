@@ -16,14 +16,14 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #69F7BE;
-  --color-text-main: #000000;
-  --color-primary: #FFFF00;
+  --color-bg: white;
+  --color-text-main: SteelBlue;
+  --color-primary: SteelBlue;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family: 'Times New Roman', serif;
+  --font-family-header: 'Times New Roman', serif;
 }
 
 /* Basic page style resets */
@@ -36,12 +36,12 @@ to this section's matching END comment to see page-specific styles.
 
 /* Import fonts */
 @font-face {
-  font-family: HK Grotesk;
+  font-family: 'Times New Roman', serif;
   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
     format("opentype");
 }
 @font-face {
-  font-family: HK Grotesk;
+  font-family: 'Times New Roman', serif;
   font-weight: bold;
   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
     format("opentype");
@@ -86,11 +86,11 @@ to this section's matching END comment to see page-specific styles.
 
 .footer a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
-  font-family: HK Grotesk;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;
-  color: #000;
+  color: SteelBlue;
   text-decoration: none;
   border-style: none;
 }
@@ -111,7 +111,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: HK Grotesk;
+  font-family: 'Times New Roman', serif;
   background-color: var(--color-bg);
 }
 
@@ -131,7 +131,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #2800FF;
+  color: SteelBlue;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -167,7 +167,7 @@ input {
 
 /* Subheading */
 h2 {
-  color: #2800FF;
+  color: SteelBlue;
 }
 
 /* Interactive image */
