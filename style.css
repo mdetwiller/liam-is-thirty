@@ -183,13 +183,29 @@ h3 {
   transform: translateY(5px);
 }
 
-/* Links that open files in the editor */
-.fileopener {
-  cursor:pointer;
-  font-weight:bold;
-  border-bottom:3px solid var(--color-primary);
-  color: var(--color-secondary);
+details {
+  font:
+    16px "Times New Roman", serif;
+  width: 300px;
 }
-.fileopener:hover {
-  border-bottom:3px solid var(--color-secondary);
+
+details > summary {
+  padding: 2px 6px;
+  width: 15em;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+details[open] > summary {
+  background-color: #ccf;
 }
