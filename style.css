@@ -49,7 +49,7 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our remix on glitch button */
 .btn--remix {
-  font-family: HK Grotesk;
+  font-family: 'Times New Roman', serif;
   padding: 0.75rem 1rem;
   font-size: 1.1rem;
   line-height: 1rem;
@@ -62,7 +62,7 @@ to this section's matching END comment to see page-specific styles.
   box-sizing: border-box;
   border-radius: 4px;
   text-decoration: none;
-  color: #000;
+  color: SteelBlue;
   white-space: nowrap;
   margin-left: auto;
 }
@@ -81,7 +81,7 @@ to this section's matching END comment to see page-specific styles.
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
-  border-top: 4px solid #fff;
+  border-top: 4px solid #ffffff;
 }
 
 .footer a:not(.btn--remix):link,
@@ -132,7 +132,7 @@ body {
 /* Very light scaling for our illustration */
 .title {
   color: SteelBlue;
-  font-family: HK Grotesk;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
