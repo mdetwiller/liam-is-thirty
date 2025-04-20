@@ -139,13 +139,6 @@ body {
   margin: 0;
 }
 
-/* Very light scaling for our illustration */
-.illustration {
-  max-width: 100%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
-}
-
 /* Instructions */
 .instructions {
   margin: 1rem auto 0;
@@ -190,10 +183,9 @@ details {
 
 details > summary {
   padding: 2px 6px;
-  width: 15em;
-  background-color: #660033;
+  /*width: 15em;*/
+  background-color: steelBlue;
   border: none;
-  box-shadow: 3px 3px 4px black;
   cursor: pointer;
   color: FloralWhite;
 }
